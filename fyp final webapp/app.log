@@ -1,0 +1,260 @@
+2025-04-01 23:48:44,291 - __main__ - INFO - Detectron2 configured to use cuda
+2025-04-01 23:48:44,980 - detectron2.checkpoint.detection_checkpoint - INFO - [DetectionCheckpointer] Loading from C:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-01 23:48:44,980 - fvcore.common.checkpoint - INFO - [Checkpointer] Loading from c:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-01 23:48:46,823 - __main__ - INFO - Computer vision models loaded successfully
+2025-04-01 23:54:04,937 - __main__ - INFO - AI models loaded on GPU
+2025-04-01 23:54:04,938 - __main__ - INFO - Damage analyzer initialized successfully
+2025-04-01 23:54:06,405 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.17.123.5:5000
+2025-04-01 23:54:06,406 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-01 23:54:49,865 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 23:54:49] "GET / HTTP/1.1" 200 -
+2025-04-01 23:54:50,136 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 23:54:50] "[36mGET /static/results/detected_27.jpg HTTP/1.1[0m" 304 -
+2025-04-01 23:54:50,149 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 23:54:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-01 23:54:50,153 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 23:54:50] "[36mGET /static/results/detected_32.jpg HTTP/1.1[0m" 304 -
+2025-04-01 23:54:50,215 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 23:54:50] "[36mGET /static/results/detected_42.jpg HTTP/1.1[0m" 304 -
+2025-04-01 23:54:50,252 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 23:54:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-01 23:54:50,410 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 23:54:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-01 23:55:12,976 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 23:55:12] "POST /analyze HTTP/1.1" 200 -
+2025-04-01 23:55:13,009 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 23:55:13] "GET /results?original=static/uploads/20250401_235504_27.jpg&detection_image=static/results/detected_20250401_235507_20250401_235504_27.jpg&damage_type=moderate&confidence=0.7659072279930115&severity=moderate&report=%0A++++++++++++VEHICLE+DAMAGE+ASSESSMENT+REPORT%0A++++++++++++%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0A++++++++++++Generated+on:+2025-04-01+23:55:12%0A++++++++++++%0A++++++++++++A+professional+vehicle+damage+assessment+report+is+a+professional+vehicle+damage+assessment+report.+This+report+is+a+professional+vehicle+damage+assessment+report.+The+report+is+a+professional+vehicle+damage+assessment+report.+The+report+is+a+professional+vehicle+damage+assessment+report.+It+is+a+professional+vehicle+damage+assessment+report.%0A++++++++++++%0A++++++++++++IMPORTANT+NOTE:%0A++++++++++++This+is+an+AI-generated+preliminary+assessment.+For+accurate+evaluation,%0A++++++++++++please+consult+a+certified+automotive+professional.%0A++++++++++++ HTTP/1.1" 200 -
+2025-04-01 23:55:13,059 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 23:55:13] "GET /static/uploads/20250401_235504_27.jpg HTTP/1.1" 200 -
+2025-04-01 23:55:13,077 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 23:55:13] "GET /static/results/detected_20250401_235507_20250401_235504_27.jpg HTTP/1.1" 200 -
+2025-04-02 00:06:31,081 - __main__ - INFO - Detectron2 configured to use cuda
+2025-04-02 00:06:31,816 - detectron2.checkpoint.detection_checkpoint - INFO - [DetectionCheckpointer] Loading from C:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-02 00:06:31,817 - fvcore.common.checkpoint - INFO - [Checkpointer] Loading from c:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-02 00:06:33,216 - __main__ - INFO - Computer vision models loaded successfully
+2025-04-02 00:06:42,759 - __main__ - INFO - AI models loaded on GPU
+2025-04-02 00:06:42,759 - __main__ - INFO - Damage analyzer initialized successfully
+2025-04-02 00:06:44,466 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.48.123:5000
+2025-04-02 00:06:44,467 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 00:07:20,473 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:07:20] "GET / HTTP/1.1" 200 -
+2025-04-02 00:07:20,721 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:07:20] "[36mGET /static/results/detected_27.jpg HTTP/1.1[0m" 304 -
+2025-04-02 00:07:20,728 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:07:20] "[36mGET /static/results/detected_32.jpg HTTP/1.1[0m" 304 -
+2025-04-02 00:07:20,736 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:07:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 00:07:20,807 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:07:20] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 00:07:20,817 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:07:20] "[36mGET /static/results/detected_42.jpg HTTP/1.1[0m" 304 -
+2025-04-02 00:07:42,246 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:07:42] "POST /analyze HTTP/1.1" 200 -
+2025-04-02 00:07:42,278 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:07:42] "GET /results?original=static/uploads/20250402_000734_27.jpg&detection_image=static/results/detected_20250402_000737_20250402_000734_27.jpg&damage_type=moderate&confidence=0.7659072279930115&severity=moderate&report=%0A++++++++VEHICLE+DAMAGE+ASSESSMENT+REPORT%0A++++++++%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0A++++++++Generated+on:+2025-04-02+00:07:42%0A++++++++%0A++++++++A+professional+vehicle+damage+assessment+report+based+on+an+original+image.%0A++++++++%0A++++++++IMPORTANT+NOTE:%0A++++++++This+is+an+AI-generated+preliminary+assessment.+For+accurate+evaluation,%0A++++++++please+consult+a+certified+automotive+professional.%0A++++++++ HTTP/1.1" 200 -
+2025-04-02 00:07:42,328 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:07:42] "GET /static/uploads/20250402_000734_27.jpg HTTP/1.1" 200 -
+2025-04-02 00:07:42,330 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:07:42] "GET /static/results/detected_20250402_000737_20250402_000734_27.jpg HTTP/1.1" 200 -
+2025-04-02 00:16:52,474 - __main__ - INFO - Detectron2 configured to use cuda
+2025-04-02 00:16:53,096 - detectron2.checkpoint.detection_checkpoint - INFO - [DetectionCheckpointer] Loading from C:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-02 00:16:53,096 - fvcore.common.checkpoint - INFO - [Checkpointer] Loading from c:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-02 00:16:54,454 - __main__ - INFO - Computer vision models loaded successfully
+2025-04-02 00:17:07,291 - __main__ - INFO - AI models loaded on GPU
+2025-04-02 00:17:07,292 - __main__ - INFO - Damage analyzer initialized successfully
+2025-04-02 00:17:08,749 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.48.123:5000
+2025-04-02 00:17:08,750 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 00:17:13,163 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:17:13] "GET / HTTP/1.1" 200 -
+2025-04-02 00:17:13,401 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:17:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 00:17:13,419 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:17:13] "[36mGET /static/results/detected_27.jpg HTTP/1.1[0m" 304 -
+2025-04-02 00:17:13,431 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:17:13] "[36mGET /static/results/detected_32.jpg HTTP/1.1[0m" 304 -
+2025-04-02 00:17:13,504 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:17:13] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 00:17:13,507 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:17:13] "[36mGET /static/results/detected_42.jpg HTTP/1.1[0m" 304 -
+2025-04-02 00:17:31,409 - __main__ - ERROR - Report generation failed: 'DamageAnalyzer' object has no attribute '_generate_image_description'
+Traceback (most recent call last):
+  File "c:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\app.py", line 131, in generate_damage_report
+    report = self._generate_structured_report(
+  File "c:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\app.py", line 199, in _generate_structured_report
+    original_desc = self._generate_image_description(original_img)
+AttributeError: 'DamageAnalyzer' object has no attribute '_generate_image_description'
+
+2025-04-02 00:17:31,411 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:17:31] "POST /analyze HTTP/1.1" 200 -
+2025-04-02 00:17:31,434 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:17:31] "GET /results?original=static/uploads/20250402_001718_32.jpg&detection_image=static/results/detected_20250402_001722_20250402_001718_32.jpg&damage_type=moderate&confidence=0.6320749521255493&severity=moderate&report=%0A++++++++BASIC+DAMAGE+ASSESSMENT%0A++++++++-----------------------%0A++++++++Damage+Severity:+moderate%0A++++++++Confidence:+63.21%25%0A++++++++%0A++++++++Note:+Detailed+analysis+unavailable.+Please+consult+a+professional%0A++++++++for+comprehensive+assessment.%0A++++++++ HTTP/1.1" 200 -
+2025-04-02 00:17:31,490 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:17:31] "GET /static/uploads/20250402_001718_32.jpg HTTP/1.1" 200 -
+2025-04-02 00:17:31,492 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 00:17:31] "GET /static/results/detected_20250402_001722_20250402_001718_32.jpg HTTP/1.1" 200 -
+2025-04-02 00:25:15,719 - __main__ - INFO - Detectron2 configured to use cuda
+2025-04-02 00:25:16,442 - detectron2.checkpoint.detection_checkpoint - INFO - [DetectionCheckpointer] Loading from C:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-02 00:25:16,442 - fvcore.common.checkpoint - INFO - [Checkpointer] Loading from c:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-02 00:25:17,912 - __main__ - INFO - Computer vision models loaded successfully
+2025-04-02 00:25:19,275 - __main__ - ERROR - Failed to load AI models: mistralai/Mistral-7B-Instruct is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+Traceback (most recent call last):
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\utils\_http.py", line 409, in hf_raise_for_status
+    response.raise_for_status()
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/mistralai/Mistral-7B-Instruct/resolve/main/processor_config.json
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\utils\hub.py", line 424, in cached_files
+    hf_hub_download(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\file_download.py", line 862, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\file_download.py", line 969, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\file_download.py", line 1486, in _raise_on_head_call_error
+    raise head_call_error
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\file_download.py", line 1376, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\file_download.py", line 1296, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\file_download.py", line 280, in _request_wrapper
+    response = _request_wrapper(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\file_download.py", line 304, in _request_wrapper
+    hf_raise_for_status(response)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\utils\_http.py", line 458, in hf_raise_for_status
+    raise _format(RepositoryNotFoundError, message, response) from e
+huggingface_hub.errors.RepositoryNotFoundError: 401 Client Error. (Request ID: Root=1-67ec3696-6d39742148190d3571685218;2ce42f6b-d959-4ae8-9783-8ee9bdbc1f18)
+
+Repository Not Found for url: https://huggingface.co/mistralai/Mistral-7B-Instruct/resolve/main/processor_config.json.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated.
+Invalid username or password.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\app.py", line 87, in __init__
+    self.processor = AutoProcessor.from_pretrained("mistralai/Mistral-7B-Instruct")
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\models\auto\processing_auto.py", line 273, in from_pretrained
+    processor_config_file = cached_file(pretrained_model_name_or_path, PROCESSOR_NAME, **cached_file_kwargs)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\utils\hub.py", line 266, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\utils\hub.py", line 456, in cached_files
+    raise EnvironmentError(
+OSError: mistralai/Mistral-7B-Instruct is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+
+2025-04-02 00:35:24,836 - __main__ - INFO - Detectron2 configured to use cuda
+2025-04-02 00:35:25,441 - detectron2.checkpoint.detection_checkpoint - INFO - [DetectionCheckpointer] Loading from C:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-02 00:35:25,442 - fvcore.common.checkpoint - INFO - [Checkpointer] Loading from c:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-02 00:35:26,859 - __main__ - INFO - Computer vision models loaded successfully
+2025-04-02 00:35:33,915 - __main__ - ERROR - Failed to load AI models: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-67ec38fd-19a8e4cb071355c302d0c624;f7f32b54-06af-45f7-b71c-fb696a95b726)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+Traceback (most recent call last):
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\utils\_http.py", line 409, in hf_raise_for_status
+    response.raise_for_status()
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\utils\hub.py", line 424, in cached_files
+    hf_hub_download(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\file_download.py", line 862, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\file_download.py", line 969, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\file_download.py", line 1486, in _raise_on_head_call_error
+    raise head_call_error
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\file_download.py", line 1376, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\file_download.py", line 1296, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\file_download.py", line 280, in _request_wrapper
+    response = _request_wrapper(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\file_download.py", line 304, in _request_wrapper
+    hf_raise_for_status(response)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\huggingface_hub\utils\_http.py", line 426, in hf_raise_for_status
+    raise _format(GatedRepoError, message, response) from e
+huggingface_hub.errors.GatedRepoError: 401 Client Error. (Request ID: Root=1-67ec38fd-19a8e4cb071355c302d0c624;f7f32b54-06af-45f7-b71c-fb696a95b726)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\app.py", line 109, in __init__
+    self.llm_tokenizer = AutoTokenizer.from_pretrained(model_name)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\models\auto\tokenization_auto.py", line 930, in from_pretrained
+    config = AutoConfig.from_pretrained(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\models\auto\configuration_auto.py", line 1096, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\configuration_utils.py", line 594, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\configuration_utils.py", line 653, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\utils\hub.py", line 266, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\utils\hub.py", line 481, in cached_files
+    raise EnvironmentError(
+OSError: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-67ec38fd-19a8e4cb071355c302d0c624;f7f32b54-06af-45f7-b71c-fb696a95b726)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+
+2025-04-02 00:35:33,916 - __main__ - ERROR - Failed to initialize damage analyzer: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-67ec38fd-19a8e4cb071355c302d0c624;f7f32b54-06af-45f7-b71c-fb696a95b726)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-04-02 00:47:47,999 - __main__ - INFO - Detectron2 configured to use cuda
+2025-04-02 00:47:48,679 - detectron2.checkpoint.detection_checkpoint - INFO - [DetectionCheckpointer] Loading from C:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-02 00:47:48,679 - fvcore.common.checkpoint - INFO - [Checkpointer] Loading from c:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-02 00:47:50,208 - __main__ - INFO - Computer vision models loaded successfully
+2025-04-02 00:49:40,191 - huggingface_hub.file_download - WARNING - Error while downloading from https://cdn-lfs.hf.co/repos/c3/19/c319f449fcdb0d9d94a31b6ea85249cae91a3bfd9f701fd36f53e40abaa8a801/2aa156167951408feeb432b4a459cab2a7b370b6d9bae8552e9438333ea7b73c?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00007-of-00008.safetensors%3B+filename%3D%22model-00007-of-00008.safetensors%22%3B&Expires=1743538691&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzUzODY5MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9yZXBvcy9jMy8xOS9jMzE5ZjQ0OWZjZGIwZDlkOTRhMzFiNmVhODUyNDljYWU5MWEzYmZkOWY3MDFmZDM2ZjUzZTQwYWJhYThhODAxLzJhYTE1NjE2Nzk1MTQwOGZlZWI0MzJiNGE0NTljYWIyYTdiMzcwYjZkOWJhZTg1NTJlOTQzODMzM2VhN2I3M2M%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=unH2SfB4Jg5%7EwSlg5A-pTW5TlIvCxVHy0RLv85EYdovJy4-HGhpCfcy8XTMcLzF80wP3uO3zt7wa-i%7E5E2XNaWep5XxuUoJ9VefouvBuIl4k0QsDgZo85qCEuhmlDk1E7B4G%7EMU2VsZkupiZQ09KD32TNo%7EqUAEcoKG98O%7EsWNSino70dzBFyqMGbX8YrxToIbyoY8rs8VA6YVF6zs-9AI90FeUJSUAyRXz13hPftlei6wm7i4YJnH6bQKVaGztnPHHIGrFTI0AEBbUsns40JuPxVX3pM7eF53Skjmd5fst5u%7ELdiS99D5IRP823r5ZCYHWOpYGxd-onLM5IGkSbKA__&Key-Pair-Id=K3RPWS32NSSJCE: HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-04-02 00:49:40,191 - huggingface_hub.file_download - WARNING - Error while downloading from https://cdn-lfs.hf.co/repos/c3/19/c319f449fcdb0d9d94a31b6ea85249cae91a3bfd9f701fd36f53e40abaa8a801/f7802127af417a113424be223deaeb2dea0bd74518a0ae81a9bf8b7e90592f4f?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00006-of-00008.safetensors%3B+filename%3D%22model-00006-of-00008.safetensors%22%3B&Expires=1743538691&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzUzODY5MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9yZXBvcy9jMy8xOS9jMzE5ZjQ0OWZjZGIwZDlkOTRhMzFiNmVhODUyNDljYWU5MWEzYmZkOWY3MDFmZDM2ZjUzZTQwYWJhYThhODAxL2Y3ODAyMTI3YWY0MTdhMTEzNDI0YmUyMjNkZWFlYjJkZWEwYmQ3NDUxOGEwYWU4MWE5YmY4YjdlOTA1OTJmNGY%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=fJahwdgOVBDJz-z5TY6U%7EPjrIWmDTHIwxHxu7VvwKrYGJUG-jZ4rb7--6BwLuiOud7%7EGUy4nPTpaJkTh7BBsr7ihKSMRq7avHlfiRRq1NfdDDez61qAqbxAdrTJFOv6W1YlHV2LlyMxx0uYkPW7u0q4vN1XZXD71HAj51VLfWGntHFJT9foA8OHOV6eDTYpjRvTm8Hx9iuGR8ZEuuCOHCsneLp7EAtCO7CHTmzYr8LUiQ8uBabkXqSNivDpUCNRrovDoJ723I3Cwd0-%7EoUpSq%7EtzIHWuEC9G6cCftUfkNkB%7EweRuiVXzyiRwHen1Ka0TNaHsY%7ELuxHBL5ILAF-Tk6A__&Key-Pair-Id=K3RPWS32NSSJCE: HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-04-02 02:03:57,842 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-02 02:03:57,937 - __main__ - ERROR - Failed to load AI models: Some modules are dispatched on the CPU or the disk. Make sure you have enough GPU RAM to fit the quantized model. If you want to dispatch the model on the CPU or the disk while keeping these modules in 32-bit, you need to set `llm_int8_enable_fp32_cpu_offload=True` and pass a custom `device_map` to `from_pretrained`. Check https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu for more details. 
+Traceback (most recent call last):
+  File "c:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\app.py", line 115, in __init__
+    self.llm_model = AutoModelForCausalLM.from_pretrained(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\models\auto\auto_factory.py", line 573, in from_pretrained
+    return model_class.from_pretrained(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\modeling_utils.py", line 272, in _wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\modeling_utils.py", line 4434, in from_pretrained
+    device_map = _get_device_map(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\modeling_utils.py", line 1338, in _get_device_map
+    hf_quantizer.validate_environment(device_map=device_map)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\quantizers\quantizer_bnb_4bit.py", line 104, in validate_environment
+    raise ValueError(
+ValueError: Some modules are dispatched on the CPU or the disk. Make sure you have enough GPU RAM to fit the quantized model. If you want to dispatch the model on the CPU or the disk while keeping these modules in 32-bit, you need to set `llm_int8_enable_fp32_cpu_offload=True` and pass a custom `device_map` to `from_pretrained`. Check https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu for more details. 
+
+2025-04-02 02:03:57,939 - __main__ - ERROR - Failed to initialize damage analyzer: Some modules are dispatched on the CPU or the disk. Make sure you have enough GPU RAM to fit the quantized model. If you want to dispatch the model on the CPU or the disk while keeping these modules in 32-bit, you need to set `llm_int8_enable_fp32_cpu_offload=True` and pass a custom `device_map` to `from_pretrained`. Check https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu for more details. 
+2025-04-02 02:35:59,263 - __main__ - INFO - Detectron2 configured to use cuda
+2025-04-02 02:35:59,925 - detectron2.checkpoint.detection_checkpoint - INFO - [DetectionCheckpointer] Loading from C:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-02 02:35:59,926 - fvcore.common.checkpoint - INFO - [Checkpointer] Loading from c:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-02 02:36:01,618 - __main__ - INFO - Computer vision models loaded successfully
+2025-04-02 02:37:13,780 - __main__ - INFO - Detectron2 configured to use cuda
+2025-04-02 02:37:14,390 - detectron2.checkpoint.detection_checkpoint - INFO - [DetectionCheckpointer] Loading from C:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-02 02:37:14,390 - fvcore.common.checkpoint - INFO - [Checkpointer] Loading from c:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\model_final.pth ...
+2025-04-02 02:37:15,696 - __main__ - INFO - Computer vision models loaded successfully
+2025-04-02 02:37:23,489 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-02 02:37:23,509 - __main__ - ERROR - Failed to load AI models: Some modules are dispatched on the CPU or the disk. Make sure you have enough GPU RAM to fit the quantized model. If you want to dispatch the model on the CPU or the disk while keeping these modules in 32-bit, you need to set `llm_int8_enable_fp32_cpu_offload=True` and pass a custom `device_map` to `from_pretrained`. Check https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu for more details. 
+Traceback (most recent call last):
+  File "c:\Users\RO_HIT\OneDrive\Desktop\fyp final webapp\app.py", line 115, in __init__
+    self.llm_model = AutoModelForCausalLM.from_pretrained(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\models\auto\auto_factory.py", line 573, in from_pretrained
+    return model_class.from_pretrained(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\modeling_utils.py", line 272, in _wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\modeling_utils.py", line 4434, in from_pretrained
+    device_map = _get_device_map(
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\modeling_utils.py", line 1338, in _get_device_map
+    hf_quantizer.validate_environment(device_map=device_map)
+  File "C:\Users\RO_HIT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\transformers\quantizers\quantizer_bnb_4bit.py", line 104, in validate_environment
+    raise ValueError(
+ValueError: Some modules are dispatched on the CPU or the disk. Make sure you have enough GPU RAM to fit the quantized model. If you want to dispatch the model on the CPU or the disk while keeping these modules in 32-bit, you need to set `llm_int8_enable_fp32_cpu_offload=True` and pass a custom `device_map` to `from_pretrained`. Check https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu for more details. 
+
+2025-04-02 02:37:23,509 - __main__ - ERROR - Failed to initialize damage analyzer: Some modules are dispatched on the CPU or the disk. Make sure you have enough GPU RAM to fit the quantized model. If you want to dispatch the model on the CPU or the disk while keeping these modules in 32-bit, you need to set `llm_int8_enable_fp32_cpu_offload=True` and pass a custom `device_map` to `from_pretrained`. Check https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu for more details. 
